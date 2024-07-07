@@ -157,16 +157,21 @@ hr{
     padding: 20px 0;
     color: #737373;
     font-size: 12px;
-    text-align: left;
+}
+
+#footerArea a:hover{
+    text-decoration: underline;
 }
 
 .langs{
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
 }
 
 .langs li{
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 #plusBtn{
@@ -187,7 +192,6 @@ hr{
 
 #products li{
     margin-right: 20px;
-    margin-bottom: 5px;
 }
 
 #adChoices{
