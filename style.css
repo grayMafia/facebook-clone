@@ -141,6 +141,7 @@ hr{
 
 #signInArea p a{
     font-weight: 600;
+    color: inherit;
 }
 
 #signInArea p a:hover{
@@ -157,6 +158,10 @@ hr{
     padding: 20px 0;
     color: #737373;
     font-size: 12px;
+}
+
+#footerArea a{
+    color: inherit;
 }
 
 #footerArea a:hover{
