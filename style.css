@@ -1,0 +1,200 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+a:visited{
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#main{
+    background-color: #f0f2f5;
+    padding: 72px 0 112px;
+}
+
+#contentArea{
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#descriptionArea{
+    flex-basis: 580px;
+    padding-right: 32px;
+}
+
+#descriptionArea img{
+    width: 300px;
+    margin-left: -28px;
+    margin-bottom: -14px;
+}
+
+#descriptionArea h2{
+    width: 500px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #1c1e21;
+    line-height: 32px;
+}
+
+#signInArea{
+    flex-basis: 396px;
+}
+
+#signInArea form{
+    margin-top: 40px;
+    padding: 10px 15px 24px 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#signInArea input{
+    width: 100%;
+    display: block;
+    margin: 10px 0 15px;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+#signInArea input:focus{
+    border: 2px solid #1877f2;
+    outline: none;
+}
+
+#signInArea input[type = "button"]{
+    background-color: #0866ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#signInArea input[type = "button"]:hover{
+    background-color: #1877f2;
+}
+
+#signInArea form a{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#signInArea form a:hover{
+    text-decoration: underline;
+}
+
+
+hr{
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #dadde1;
+}
+
+#signInArea form button{
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    line-height: 48px;
+    font-weight: bold;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#signInArea form button:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+
+}
+
+#signInArea p{
+    margin-top: 28px;
+    font-size: 14px;
+    color: #1c1e21;
+    text-align: center;
+}
+
+#signInArea p a{
+    font-weight: 600;
+}
+
+#signInArea p a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/* footer area */
+
+#footerArea{
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #737373;
+    font-size: 12px;
+    text-align: left;
+}
+
+.langs{
+    display: flex;
+    justify-content: left;
+}
+
+.langs li{
+    margin-right: 10px;
+}
+
+#plusBtn{
+    padding: 2px 8px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+}
+
+#plusBtn:hover{
+    background-color: #ebedf0;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products li{
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#adChoices{
+    width: 12px;
+}
+
+#rights{
+    margin-top: 10px;
+    font-size: 11px;
+}
