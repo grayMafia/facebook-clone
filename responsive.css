@@ -36,6 +36,10 @@
     #signInArea{
         flex-basis: 100%;
     }
+
+    #signInArea input{
+        font-size: 15px;
+    }    
     
 
     #footerArea{
